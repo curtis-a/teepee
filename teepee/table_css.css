@@ -1,0 +1,135 @@
+.table1 { 
+	width: 750px; 
+	border-collapse: collapse; 
+		margin: auto;
+	margin-top: 0%;
+	margin-bottom: 50px;
+	}
+
+	.table2 { 
+		width: 750px; 
+		border-collapse: collapse; 
+		margin: auto;
+		
+		}
+
+		.table3 { 
+			width: 750px; 
+			border-collapse: collapse; 
+			margin: auto;
+			margin-bottom: 15px;
+			margin-top: 50px;
+			}
+
+			.th4{
+		
+				color: #226898; 
+				font-weight: bold; 
+				font-size: 18px;
+				width: 50%;
+				padding: 10px; 
+				border: 1px solid #226898; 
+				text-align: left; 
+				text-align: center;
+				user-select: none;
+			}
+
+/* Zebra striping */
+.tr1:nth-of-type(odd) { 
+	background: #e4e2e2; 
+	}
+
+.th1 { 
+	background: #226898; 
+	color: white; 
+	font-weight: bold; 
+    font-size: 16px;
+	}
+
+.td1, .th1{ 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+    text-align: center;
+    user-select: none;
+	}
+
+    .td1{
+        font-size: 15px;
+    }
+
+
+	.th2 { 
+		background: #226898; 
+		color: white; 
+		font-weight: bold; 
+		font-size: 16px;
+		}
+	
+	.th2{ 
+		padding: 10px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+		text-align: center;
+		user-select: none;
+		}
+
+		/* 50/50 columns */
+
+		.th3 { 
+			background: #226898; 
+			color: white; 
+			font-weight: bold; 
+			font-size: 16px;
+			width: 25%;
+			}
+
+		.td3, .th3{ 
+			padding: 10px; 
+			border: 1px solid #ccc; 
+			text-align: left; 
+			text-align: center;
+			user-select: none;
+			width: 25%;
+			}
+		
+			.td3{
+				font-size: 15px;
+			}
+
+					/* 25*4 width columns */
+
+
+		.td4{ 
+			padding: 10px; 
+			border: 1px solid #ccc; 
+			text-align: left; 
+			text-align: center;
+			user-select: none;
+			font-size: 15px;
+			width: 25%;
+			}
+
+			.containerForTable{
+				border-width: 1px; 
+				color: #226898; 
+				border-style: solid;
+				width: 752px; 
+				border-collapse: collapse; 
+				margin: auto;
+			}
+
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media screen and (max-width: 800px) {
+
+	.table1 { 
+	  	width: 685px; 
+	}
+
+}
